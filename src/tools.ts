@@ -6,7 +6,7 @@ export const createWatermarkBase64 = (watermark: string) => {
   const defaultObj = {
     text: watermark,
     angle: 25,
-    color: 'rgba(0,0,0,.08)',
+    color: 'rgba(0,0,0,.1)',
     fontSize: '14px',
     top: 30,
   };

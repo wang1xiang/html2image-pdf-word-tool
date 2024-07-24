@@ -5,18 +5,18 @@ import { cleanHtml, cloneElement, createWatermarkBase64 } from './tools';
  * 导出图片
  * @param selector 导出图片对应的元素
  * @param filename 导出后文件名称
- * @param needWatermark 是否需要水印
+ * @param watermarkText 水印文案
  * @returns Promise
  */
 export function exportAsImage(
   selector: HTMLElement | string,
   filename: string,
-  needWatermark: undefined | boolean
+  watermarkText?: string
 ) {
   const cloneEle = cloneElement(selector);
   if (!cloneEle) return Promise.reject();
-  if (needWatermark) {
-    const base64 = createWatermarkBase64('水印');
+  if (watermarkText) {
+    const base64 = createWatermarkBase64(watermarkText);
     cloneEle.style.backgroundImage = `url('${base64}')`;
   }
 

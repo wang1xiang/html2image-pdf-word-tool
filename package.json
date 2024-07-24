@@ -1,10 +1,10 @@
 {
   "name": "html2image-pdf-word",
-  "version": "1.0.0",
-  "description": "将页面转为图片、pdf、word",
+  "version": "1.0.2",
+  "description": "HTML to Image, PDF, and Word Tool",
   "type": "module",
-  "main": "dist/html2image-pdf-word.cjs.js",
-  "module": "dist/html2image-pdf-word.esm.js",
+  "main": "dist/html2Image-pdf-word.cjs.js",
+  "module": "dist/html2Image-pdf-word.esm.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
@@ -16,6 +16,14 @@
     "dist"
   ],
   "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wang1xiang/html2image-pdf-word-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wang1xiang/html2image-pdf-word-tool/issues"
+  },
+  "homepage": "https://github.com/wang1xiang/html2image-pdf-word-tool#readme",
   "author": "wangxiang",
   "license": "ISC",
   "devDependencies": {
