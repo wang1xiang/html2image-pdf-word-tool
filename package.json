@@ -1,6 +1,6 @@
 {
   "name": "html2image-pdf-word",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HTML to Image, PDF, and Word Tool",
   "type": "module",
   "main": "dist/html2Image-pdf-word.cjs.js",
