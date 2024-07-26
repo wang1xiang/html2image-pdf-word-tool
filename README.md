@@ -19,10 +19,6 @@ npm install html2canvas jspdf html-docx-js-typescript file-saver --save
 yarn add html2canvas jspdf html-docx-js-typescript file-saver
 ```
 
-**注意：如果只需要导出图片功能，只需要安装 `html2canvas` 依赖**  
-**注意：如果只需要导出 PDF 功能，需要同时安装 `html2canvas` 和 `jspdf` 依赖**  
-**注意：如果只需要导出 Word 功能，需要同时安装 `html2canvas`、`html-docx-js-typescript` 和 `file-saver` 依赖**
-
 ## 安装此工具
 
 ```bash
